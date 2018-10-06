@@ -94,7 +94,7 @@ func loadTLSConfig(settings *SessionSettings) (tlsConfig *tls.Config, err error)
 func defaultTLSConfig() *tls.Config {
 	return &tls.Config{
 		// Avoids most of the memorably-named TLS attacks
-		MinVersion: tls.VersionTLS12,
+		MinVersion: tls.VersionTLS10,
 		// Causes servers to use Go's default ciphersuite preferences,
 		// which are tuned to avoid attacks. Does nothing on clients.
 		PreferServerCipherSuites: true,
