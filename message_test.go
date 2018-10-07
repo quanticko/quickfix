@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/quickfixgo/quickfix/datadictionary"
+	"github.com/quanticko/quickfix/datadictionary"
 	"github.com/stretchr/testify/suite"
 )
 

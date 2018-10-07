@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/quickfixgo/quickfix/config"
+	"github.com/quanticko/quickfix/config"
 )
 
 type msgDef struct {
